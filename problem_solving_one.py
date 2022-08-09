@@ -89,7 +89,7 @@ def solve(to_compress):
          if counter > 1:
             character += str(counter)
          counter = 1
-   character = character + to_compress[-1]
+   character =  character + to_compress[-1]
    if counter > 1:
       character += str(counter)
    return character
